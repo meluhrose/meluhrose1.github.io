@@ -1,0 +1,280 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    background-color: #F4F1F1;
+    color: #000000;
+}
+
+/* Header Styles */
+header {
+    color: 000000;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.logo {
+    position: sticky;
+    padding: 30px;
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Lexend", sans-serif;
+    color: #000000;
+}
+
+/* Navigation Styles */
+nav {
+    margin: 40px;
+    font-family: "Lexend", sans-serif;
+    color: #000000;
+    text-decoration: #E31E9E;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 45px;
+  }
+  
+  nav ul {
+    padding: 0px;
+    text-align : center;
+  }
+  
+  nav li {
+      display: inline-block;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    nav a {
+      color: #000000;
+      text-decoration: none;
+    }
+  
+  nav a:hover {
+      color: #E31E9E;
+    }
+  
+  i {
+      padding: 10px;
+      margin: 5px;
+    }
+
+#hamburger-menu {
+    display:inline-block;
+    position: relative;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+    white-space: nowrap;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-one {
+    text-align: left;
+    color: #E31E9E;
+}
+
+.footer-column-two {
+
+    vertical-align: top;
+    text-align: left;
+    color: #2DE1EC;
+}
+
+.footer-column-three {
+
+    text-align: left;
+    color: #FF6608;
+}
+
+/* Homepage */
+
+.header-container {
+    position: relative;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF6608;
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+.header-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta-cyan {
+    background-color: #fff;
+    color: #000000;
+    border-style: solid;
+    border-color: #2DE1EC;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cta-cyan:hover {
+    background-color: #2DE1EC;
+    color: #000000;
+}
+
+.cta-pink {
+    background-color: #fff;
+    color: #000000;
+    border-style: solid;
+    border-color: #E31E9E;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-pink:hover {
+    background-color: #E31E9E;
+    color: #000000;
+}
+
+.cta-green {
+    background-color: #fff;
+    color: #000000;
+    border-style: solid;
+    border-color: #08FF14;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cta-green:hover {
+    background-color: #08FF14;
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.featured-event {
+    position: relative;
+    left: 12%;
+}
+
+.featured-event img {
+    width: 25%;
+    height: auto;
+    padding: 30px;
+}
+
+.feature-date {
+    position: absolute;
+    top: 38px; 
+    left: 48px;
+    background-color: #08FF14;
+    padding: 15px 15px;
+    font-weight: bold;
+}
+
+.feature-text {
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.feature-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 0 0 3px #08FF14;
+}
+
+.cta-feature {
+    position: absolute;
+    top: 71%;
+    left: 13.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.event-list {
+    position: relative;
+    left: 65%;
+    bottom: 48%;
+}
+
+.event, .event-two, .event-three, .event-four, .event-five, .event-six {
+    background-color: #fff;
+    width: 30%;
+    padding: 15px;
+    margin: 8px
+
+}
+.event {
+    border: 3px solid #FF6608;
+}
+
+.date-event {
+    background-color: #FF6608;
+    padding: 15px 15px;
+    font-weight: bold;
+    width: fit-content;
+
+}
+
+.event-two {
+    border: 3px solid #E31E9E;
+}
+.event-three {
+    border: 3px solid #2DE1EC;
+}
+.event-four {
+    border: 3px solid #94FACE;
+}
+ .event-five {
+    border: 3px solid #289CB9;
+}
+ 
+ .event-six {
+    border: 3px solid #08FF14; 
+}

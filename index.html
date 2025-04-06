@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Science Museum-Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
@@ -20,6 +20,8 @@
                 <img border="0" alt="" src="assets/logo.png">
             </a>
         </div>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></i></label>
+        <input type="checkbox" id="hamburger-menu" />
         <nav>
             <ul>
                 <li><a href="visitus.html">Visit Us</a></li>
@@ -28,74 +30,96 @@
                 <li><a href="exhibitions.html">Exhibitions</a></li>
                 <li><a href="Explore.html">Explore</a></li>
             </ul>
-            <img src="assets/header-image.jpg" alt="A suited astraunat in the cabin of their spaceship">
-        <h1>Unleash Your Inner Scientist</h1> 
-        <p>Fun, Hands on Learning for Kids</p>
-        <p class="cta-cyan">EXHIBITIONS</p>
-        <p class="cta-pink">BUY TICKETS</p>
-        <P class="cta-teal">EVENTS</P>
     </header>
     <main>
+        <div class="header-container">
+            <div class="header-image">
+                <img src="assets/header-image.jpg" alt="A suited astraunat in the cabin of their spaceship. The image is taken from the side. The astraunat is testing the chair of the spaceship.">
+                <div class="header-text">
+                    <h1>Unleash Your Inner Scientist</h1> 
+                    <p class="header-subtext">Fun, Hands on Learning for Kids</p>
+                </div>
+                <div class="header-cta">
+                    <a href="exhibitions.html" class="cta-cyan">EXHIBITIONS</a>
+                    <a href="visitus.html" class="cta-pink">BUY TICKETS</a>
+                    <a href="events.html" class="cta-green">EVENTS</a>
+                </div>
+            </div>
+        </div>
         <div>
             <h2>UPCOMING EVENTS</h2>
         </div>
-        <section>
-            <img src="assets/night-in-the-museum.jpg" alt="An overview image of a museum. The image is dark, but the only thing lit up is a life size mammoth with a human being standing in front.">
-            <p>10 May</p>
-           <P>Featured Event</P>
-           <p>Night In the Museum</p>
-           <p class="cta-green">EVENT DETAILS</p>
-        </section>
-        <section>
-            <p>5 april</p>
-            <p>10:00-15:30</p>
-            <p>Visitng Professor of Aeuronautics</p>
-        </section><section>
-            <p>6 april</p>
-            <p>11:00-14:30</p>
-            <p>Energetica Exhibition loan from NEMO</p>
-        </section>
-        <section>
-            <p>19 april</p>
-            <p>10:00-14:00</p>
-            <p>Sensory Friendly Day</p>
-        </section>
-        <section>
-            <p>20 april</p>
-            <p>10:00-13:00</p>
-            <p>Eggstravaganza Fun!</p>
-        </section>
-        <section>
-            <p>10 may</p>
-            <p>16:00-22:00</p>
-            <p>Night In The Museum</p>
-        <section>
-            <p>11 may</p>
-            <p>10:00-13:00</p>
-            <p>Festival of Colours</p>
-            <p>See Events</p>
-        </section>
+        <div class="event-container">
+            <section class="featured-event">
+                <img src="assets/night-in-the-museum.jpg" alt="An overview image of a museum. The image is dark, but the only thing lit up is a life size mammoth with a human being standing in front.">
+                <p class="feature-date">10 May</p>
+                <div class="feature-text">
+                    <P>FEATURED EVENT</P>
+                    <p class="feature-title">NIGHT IN THE MUSUEM</p>
+                </div>
+                <a href="events.html" class="cta-green cta-feature">EVENT DETAILS</a>
+            </section>
+            <section class="event-list">
+                <div class="event">
+                    <p class="date-event">5 april</p>
+                    <p>10:00-15:30</p>
+                    <p>Visitng Professor of Aeuronautics</p>
+                </div>
+                <div class="event-two">
+                    <p class="date-event-two">6 april</p>
+                    <p>11:00-14:30</p>
+                    <p>Energetica Exhibition loan from NEMO</p>
+                </div>
+                <div class="event-three">
+                    <p class="date-event-three">19 april</p>
+                    <p>10:00-14:00</p>
+                    <p>Sensory Friendly Day</p>
+                </div>
+                <div class="event-four">
+                    <p class="date-event-four">20 april</p>
+                    <p>10:00-13:00</p>
+                    <p>Eggstravaganza Fun!</p>
+                </div>
+                <div class="event-five">
+                    <p class="date-event-five"> 10 may</p>
+                    <p>16:00-22:00</p>
+                    <p>Night In The Museum</p>
+                </div>
+                <div class="event-six">
+                    <p class="date-event-six">11 may</p>
+                    <p>10:00-13:00</p>
+                    <p>Festival of Colours</p>
+                    <a href="events.html" class="cta-pink">See Events</a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-        <section>
-            <p>OPENING HOURS</p>
-            <p>Monday: Closed</p>
-            <p>Tuesday: 10:00-16:00</p>
-            <p>Wednesday: 10:00-16:00</p>
-            <p>Thursday: 10:00-16:00</p>
-            <p>Friday: 10:00-19:00</p>
-            <p>Saturday: 9:00-16</p>
-            <p>Sunday: 9:00-13:00</p>
-        </section>
-        <section>
-            <p>CONTACT INFORMATION</p>
-            <p>Address: Byfjordparken 17, 4007 Stavanger</p>
-                <p>Tlf: +4738000000</p>
-                <p>E-mail: info@csm.com</p>
-        </section>
-        <section>
-            <p>SOCIAL MEDIA</p>
-        </section>
+        <div class="footer-column">
+            <div class="footer-column-one">
+                <p class="footer-title">OPENING HOURS</p>
+                <p>Monday: Closed</p>
+                <p>Tuesday: 10:00-16:00</p>
+                <p>Wednesday: 10:00-16:00</p>
+                <p>Thursday: 10:00-16:00</p>
+                <p>Friday: 10:00-19:00</p>
+                <p>Saturday: 9:00-16</p>
+                <p>Sunday: 9:00-13:00</p>
+            </div>
+            <div class="footer-column-two">
+                <p footer-title>CONTACT INFORMATION</p>
+                <p>Address: Byfjordparken 17, 4007 Stavanger</p>
+                    <p>Tlf: +4738000000</p>
+                    <p>E-mail: info@csm.com</p>
+            </div>
+            <div class="footer-column-three">
+                <p footer-title>SOCIAL MEDIA</p>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

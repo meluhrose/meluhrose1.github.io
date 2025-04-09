@@ -6,15 +6,22 @@ body {
     color: #000000;
 }
 
+h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: "Lexend", sans-serif;
+    color: #000000;
+    font-size: 2rem;
+
+}
+
 /* Header Styles */
 header {
     color: 000000;
     padding: 1rem 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
 }
 
 .logo {
@@ -188,7 +195,7 @@ main {
     color: #000000;
 }
 
-h2 {
+.main-title {
     color: #000000;
     font-size: 4rem;
     text-align: center;
@@ -356,29 +363,52 @@ h2 {
 /* Get Involved Page */
 
 .getinvolved-header {
+    background-color: #289CB9;
     color: #000000;
     font-size: 4rem;
-    text-align: center;
-    margin-top: 2rem;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .getinvolved-header img {
-    width: 777px;
-    height: 750px;
-    padding: 11px;
+    padding: 0px;
 }
 
 .getinvolved-container {
-    background-image: url('../assets/science-background.jpg');
+    background-image: url('../assets/container-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 65px;
     margin: 25px;
+    width: 90%;
+    height: auto;
 } 
 
 .getinvolved-container img {
-    width: 30%;
+    width: 40%;
     height: auto;
-    padding: 11px;
 } 
+
+.support-box,
+.support-box img {
+    border: 3px solid #FF6608;
+} 
+
+.volunteer-box,
+.volunteer-box img {
+    border: 3px solid #08FF14;
+}
+
+.internship-box,
+.internship-box img {
+    border: 3px solid #2DE1EC;
+}
+
+.support-box-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -384,7 +384,7 @@ main {
     padding: 65px;
     margin: 25px;
     width: 90%;
-    height: auto;
+    height: 476px;
 } 
 
 .getinvolved-container img {
@@ -395,7 +395,15 @@ main {
 .support-box,
 .support-box img {
     border: 3px solid #FF6608;
-} 
+}
+
+.support-box img,
+.internship-box img{
+    position: relative;
+    bottom: 391px;
+    left: 60%;
+}
+
 
 .volunteer-box,
 .volunteer-box img {
@@ -407,8 +415,24 @@ main {
     border: 3px solid #2DE1EC;
 }
 
-.support-box-content {
+.box-content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 420px;
+}
+
+.volunteer-box img{
+    position: relative;
+    top: 54px;
+    left: -1%;
+}
+
+.box-content-right {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 420px;
 }

@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3f13ab78cf.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,7 +21,7 @@
                 <img alt="" src="assets/logo.png">
             </a>
         </div>
-        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
         <input type="checkbox" id="hamburger-menu" />
         <nav>
             <ul>
@@ -30,15 +31,17 @@
                 <li><a href="exhibitions.html">Exhibitions</a></li>
                 <li><a href="Explore.html">Explore</a></li>
             </ul>
-            <img src="assets/get-involved.jpg" alt="A man with a red jacket on looking over the museum on the balcony. The image is taken inside the museum.">
+        </nav>
+    </header>
+    <main>
+        <div class="getinvolved-header">
+            <img src="assets/get-involved.png" alt="A man with a red jacket on looking over the museum on the balcony. The image is taken inside the museum.">
             <h1>Get Involved</h1> 
             <p>Support</p>
             <p>Volunteer</p>
             <p>Internship</p>
-        </header>
-    </header>
-    <main>
-<div>
+        </div>
+<div class="getinvolved-container support-box">
     <p>Support</p>
     <p>
         There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community. 
@@ -46,7 +49,7 @@
         </p>
         <img src="assets/antdisplay.jpg" alt="An image of a large size of an ant. Thie ant is black and is displayed on top of a modeled rock. The ant is very detailed and the image is taken from the side.">
     </div>
-<div>
+<div  class="getinvolved-container volunteer-box">
     <img src="assets/volunteer.jpg" alt="An image of a teenage boy using a VR headset. He is wearing a white lab jacket and is painting an image. The image is taken from the side.">
     <p>Volunteer</p>
     <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.</p>
@@ -54,7 +57,7 @@
         You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more about how you can get involved.
     </p>
 </div>
-<div>
+<div class="getinvolved-container internship-box">
     <p>Internship</p>
     <p>
         Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.
@@ -64,25 +67,31 @@
 </div>
     </main>
     <footer>
-        <section>
-            <p>OPENING HOURS</p>
-            <p>Monday: Closed</p>
-            <p>Tuesday: 10:00-16:00</p>
-            <p>Wednesday: 10:00-16:00</p>
-            <p>Thursday: 10:00-16:00</p>
-            <p>Friday: 10:00-19:00</p>
-            <p>Saturday: 9:00-16</p>
-            <p>Sunday: 9:00-13:00</p>
-        </section>
-        <section>
-            <p>CONTACT INFORMATION</p>
-            <p>Address: Byfjordparken 17, 4007 Stavanger</p>
-                <p>Tlf: +4738000000</p>
-                <p>E-mail: info@csm.com</p>
-        </section>
-        <section>
-            <p>SOCIAL MEDIA</p>
-        </section>
+        <div class="footer-column">
+            <div class="footer-column-one">
+                <p class="footer-title">OPENING HOURS</p>
+                <p>Monday: Closed</p>
+                <p>Tuesday: 10:00-16:00</p>
+                <p>Wednesday: 10:00-16:00</p>
+                <p>Thursday: 10:00-16:00</p>
+                <p>Friday: 10:00-19:00</p>
+                <p>Saturday: 9:00-16</p>
+                <p>Sunday: 9:00-13:00</p>
+            </div>
+            <div class="footer-column-two">
+                <p class="footer-title">CONTACT INFORMATION</p>
+                <p>Address: Byfjordparken 17, 4007 Stavanger</p>
+                    <p>Tlf: +4738000000</p>
+                    <p>E-mail: info@csm.com</p>
+            </div>
+            <div class="footer-column-three">
+                <p class="footer-title">SOCIAL MEDIA</p>
+                <i class="fa-brands fa-twitter" style="color: #FF6608;"></i>
+                <i class="fa-brands fa-youtube" style="color: #FF6608;"></i>
+                <i class="fa-brands fa-facebook-f" style="color: #FF6608;"></i>
+                <i class="fa-brands fa-instagram" style="color: #FF6608;"></i>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

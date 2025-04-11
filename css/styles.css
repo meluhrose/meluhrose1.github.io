@@ -365,15 +365,26 @@ main {
 .getinvolved-header {
     background-color: #289CB9;
     color: #000000;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: left;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
+.getinvolved-header h1 {
+    margin: 15px;
+    padding: 2px;
+    font-size: 10rem;
+}
+
 .getinvolved-header img {
     padding: 0px;
+}
+
+.getinvolved-header-text {
+    position: absolute;
+    left: 50%;
 }
 
 .getinvolved-container {
@@ -381,14 +392,14 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 65px;
+    padding: 2px;
     margin: 25px;
     width: 90%;
     height: 476px;
 } 
 
 .getinvolved-container img {
-    width: 40%;
+    width: 30%;
     height: auto;
 } 
 
@@ -430,9 +441,5 @@ main {
 
 .box-content-right {
     display: flex;
-    flex-direction: column;
-    display: flex;
-  flex-direction: row;
-  width: 50%;
-  height: 420px;
+    flex-direction: row;
 }

@@ -196,6 +196,21 @@ main {
     color: #000000;
 }
 
+.cta-orange {
+    background-color: #fff;
+    color: #000000;
+    border-style: solid;
+    border-color: #FF6608;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cta-orange:hover {
+    background-color: #FF6608;
+    color: #000000;
+}
+
 .main-title {
     color: #000000;
     font-size: 4rem;
@@ -402,7 +417,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #fff;
     margin: 25px;
     height: auto;
     display: flex;
@@ -446,4 +460,51 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+/* Visit Us Page*/
+
+.visitus-header {
+    background-color: #E31E9E;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.visitus-header img {
+    padding: 0px;
+}
+
+.visitus-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.visitus-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.visitus-container-2, .accessibility-box, .food-drink-box, .shop-box {
+    background-image: url('../assets/container-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #E31E9E;
+    padding: 20px;
+    margin: 25px;
+    height: auto;
+}
+
+.visitus-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }

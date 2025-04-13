@@ -50,7 +50,7 @@ nav {
   }
   
   nav li {
-      display: block;
+      display: inline-block;
       float: right;
       padding: 20px;
       text-align: center;
@@ -312,7 +312,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
 .event-two {
@@ -324,7 +324,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
 .event-three {
@@ -336,7 +336,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
 .event-four {
@@ -348,7 +348,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
  .event-five {
@@ -360,7 +360,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
  .event-six {
@@ -372,7 +372,7 @@ main {
     padding: 15px 15px;
     margin: 8px;
     font-weight: bold;
-    width: 35px;
+    width: 10%;
 }
 
 .event-time {

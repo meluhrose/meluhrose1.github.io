@@ -155,66 +155,30 @@ main {
     transform: translate(-50%, -50%);
 }
 
-.cta-cyan {
+.cta {
     background-color: #fff;
     color: #000000;
     border-style: solid;
-    border-color: #2DE1EC;
     padding: 4px 20px;
     margin: 10px;
     border-radius: 5px;
     text-decoration: none;
-}
-.cta-cyan:hover {
-    background-color: #2DE1EC;
-    color: #000000;
+    transition: background-color 0.3s ease;
 }
 
-.cta-pink {
-    background-color: #fff;
-    color: #000000;
-    border-style: solid;
-    border-color: #E31E9E;
-    padding: 4px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
+.cta-cyan { border-color: #2DE1EC; }
+.cta-cyan:hover { background-color: #2DE1EC; }
 
-.cta-pink:hover {
-    background-color: #E31E9E;
-    color: #000000;
-}
+.cta-pink { border-color: #E31E9E; }
+.cta-pink:hover { background-color: #E31E9E; }
 
-.cta-green {
-    background-color: #fff;
-    color: #000000;
-    border-style: solid;
-    border-color: #08FF14;
-    padding: 4px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.cta-green:hover {
-    background-color: #08FF14;
-    color: #000000;
-}
+.cta-green { border-color: #08FF14; }
+.cta-green:hover { background-color: #08FF14; }
 
 .cta-orange {
-    background-color: #fff;
-    color: #000000;
-    border-style: solid;
     border-color: #FF6608;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    text-decoration: none;
 }
-.cta-orange:hover {
-    background-color: #FF6608;
-    color: #000000;
-}
+.cta-orange:hover { background-color: #FF6608; }
 
 .main-title {
     color: #000000;

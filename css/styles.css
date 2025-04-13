@@ -120,13 +120,14 @@ main {
 
 /* Homepage */
 
-.header-container {
+.header-container{
     position: relative;
 }
 
-.header-image img {
+.header-container img {
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .header-text {
@@ -136,8 +137,12 @@ main {
     transform: translate(-50%, -50%);
     color: #FF6608;
     font-size: 30px;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .header-cta {
@@ -473,6 +478,10 @@ main {
     align-items: center;
     width: 100%;
 }
+.visitus-header h1 {
+    position: relative;
+    left: 30%;
+}
 
 .visitus-header img {
     padding: 0px;
@@ -482,13 +491,27 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .visitus-container-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.visitus-info {
+    color: #47413E;
+    font-weight: bold;
+}
+
+.hour-line {
+    background-color: rgba(227, 30, 158, 0.3);
+    border-radius: 7px;
+    padding: 6px;
+    margin: 2px;
 }
 
 .visitus-container-2, .accessibility-box, .food-drink-box, .shop-box {
@@ -497,7 +520,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     border: 5px solid #E31E9E;
-    padding: 20px;
+    padding: 16px;
     margin: 25px;
     height: auto;
 }
@@ -507,4 +530,80 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+/* Exhibitions Page*/
+
+.header-container-exhibitions {
+    position: relative;
+}
+
+.header-container-exhibitions img {
+    width: 100%;
+    height: auto;
+}
+
+.header-container-exhibitions h1 {
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #94FACE;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.header-cta-exhibitions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.exhibition-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 171px;
+    width: 95%;
+    margin: 1px auto;
+  padding: 30px;
+}
+
+.exhibition-container img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.exhibition-title {
+    font-size: 40px;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+}
+
+.exhibition-1  {
+    border: 3px solid #E31E9E;
+}
+
+.exhibition-2  {
+    border: 3px solid #94FACE;
+}
+
+.exhibition-3  {
+    border: 3px solid #08FF14;
+} 
+
+.exhibition-4  {
+    border: 3px solid #FF6608;
+}
+
+.exhibition-5  {
+    border: 3px solid #289CB9;
 }

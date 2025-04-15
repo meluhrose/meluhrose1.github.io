@@ -19,6 +19,13 @@ h2 {
 
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .header-cta {
     position: absolute;
     bottom: 22%;
@@ -52,11 +59,6 @@ h2 {
 .cta-orange:hover { background-color: #FF6608; }
 
 /* Header Styles */
-header {
-    color: 000000;
-    padding: 1rem 0;
-}
-
 .logo {
     position: sticky;
     padding: 30px;
@@ -65,27 +67,22 @@ header {
 }
 
 /* Navigation Styles */
-nav {
+nav { 
     margin: 40px;
     font-family: "Lexend", sans-serif;
     color: #000000;
     text-decoration: #E31E9E;
     display: none;
-    position: relative;
-    z-index: 1000;
-    bottom: 166px;
   }
   
   nav ul {
-    padding: 0px;
-    text-align : center;
+    display: inline-block;
+    text-align : right;
   }
   
   nav li {
       display: inline-block;
-      float: right;
-      padding: 20px;
-      text-align: center;
+          padding: 20px;
     }
   
     nav a {
@@ -108,7 +105,6 @@ nav {
     
     #hamburger-menu:checked ~ nav {
         display: block;
-        visibility: visible;
         white-space: nowrap;
     }
 
@@ -317,16 +313,6 @@ main {
     padding: 5px 40px;
     margin: 20px;
     text-decoration: none;
-    font-size: 18px;
-    border-style:solid;
-    border-width: 2px;
-    border-color: #000000;
-    border-radius: 10px;
-  }
-  
-  .topnav a:hover {
-    background-color: #94FACE;
-    color: black;
   }
 
 .getinvolved-container {
@@ -622,7 +608,6 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-
 .topnav-explore a {
     float: left;
     color: #000000;
@@ -630,15 +615,6 @@ main {
     margin: 20px;
     text-decoration: none;
     font-size: 18px;
-    border-style:solid;
-    border-width: 2px;
-    border-color: #000000;
-    border-radius: 10px;
-  }
-  
-  .topnav-explore a:hover {
-    background-color: #E31E9E;
-    color: black;
   }
 
 .explore-container img,
@@ -666,4 +642,25 @@ main {
     justify-content: center;
     text-align: left;
     padding: 25px 195px;
+}
+
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    header {
+        justify-content: baseline;
+      }
+
+nav {
+    display: block;
+    position: static;
+  }
+
+  header label {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
 }

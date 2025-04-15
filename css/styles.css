@@ -648,7 +648,7 @@ main {
 
 
 /* Media Queries */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     header {
         justify-content: baseline;
       }
@@ -665,4 +665,20 @@ nav {
   nav li {
     display: inline-block;
   }
+}
+
+.header-text {
+    top: 36%;
+    font-size: 4rem;
+}
+
+.event-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event {
+    width: 89%;
+    padding: 11px;
+    margin:14px;
 }

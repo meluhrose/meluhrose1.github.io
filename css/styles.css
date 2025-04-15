@@ -152,11 +152,12 @@ main {
 
 /* Homepage */
 
-.header-container{
+.header-container {
     position: relative;
 }
 
-.header-container img {
+.header-container img,
+.explore-header-container img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -592,4 +593,77 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+/* Explore Page */
+
+.explore-header-container{
+    position: relative;
+}
+
+.explore-header-text {
+    position: absolute;
+    top: 24%;
+    left: 29%;
+}   
+
+.explore-header-container h1 {
+    color: #E31E9E;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.topnav-explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav-explore a {
+    float: left;
+    color: #000000;
+    padding: 5px 40px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 10px;
+  }
+  
+  .topnav-explore a:hover {
+    background-color: #E31E9E;
+    color: black;
+  }
+
+.explore-container img,
+.explore-container-middle img,
+.explore-container-last img {
+    width: 62%;
+    height: auto;
+    padding: 71px;
+}
+
+  .explore-container,
+  .explore-container-middle,
+  .explore-container-last {
+    display: flex;
+    flex-direction: row;
+    margin: 15px
+}
+.explore-container {background-color: #289CB9;}
+.explore-container-middle {background-color: #08FF14;}
+.explore-container-last {background-color: #94FACE;}
+
+.explore-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 25px 195px;
 }

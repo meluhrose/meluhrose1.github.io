@@ -544,6 +544,7 @@ main {
 
 .eventspage-container img {
     padding: 90px;
+    width: fit-content;
 }
 
 .event-text {
@@ -620,9 +621,9 @@ main {
 .explore-container img,
 .explore-container-middle img,
 .explore-container-last img {
-    width: 62%;
+    width: 100%;
     height: auto;
-    padding: 71px;
+    padding: 18px;
 }
 
   .explore-container,
@@ -630,7 +631,8 @@ main {
   .explore-container-last {
     display: flex;
     flex-direction: row;
-    margin: 15px
+    margin: 30px;
+    padding: 50px 25px;
 }
 .explore-container {background-color: #289CB9;}
 .explore-container-middle {background-color: #08FF14;}

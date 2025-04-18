@@ -581,8 +581,8 @@ nav {
 
 .explore-header-text {
     position: absolute;
-    top: 24%;
-    left: 29%;
+    top: 19%;
+    left: 27%;
 }   
 
 .explore-header-container h1 {
@@ -592,7 +592,7 @@ nav {
 .topnav-explore {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .topnav-explore a {
@@ -629,7 +629,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    padding: 25px 195px;
+    padding: 25px 0px;
 }
 
 
@@ -675,16 +675,24 @@ nav {
     .getinvolved-header img {
         display: none;
       }
-      .explore-header-text {
-        left: 16%;
+
+    .explore-container img,
+    .explore-container-middle img, .explore-container-last img {
+        width: 100%;
+        display: none;
     }
+
+     .explore-header-text {
+        left: 34%;
+  }
 }
 
 @media (max-width: 1892px) {
     .header-text h1,
     .visitus-header h1,
     .header-events h1,
-    .getinvolved-header h1 {
+    .getinvolved-header h1,
+    .explore-header-text h1 {
         font-size: 5rem;
 }
     }
@@ -738,11 +746,11 @@ nav {
     left: 30%;
   }
 
-  .cta-feature {
+.cta-feature {
     left: 29%;
     font-size: 1rem;
   }
-  .visitus-container-3 {
+.visitus-container-3 {
     flex-direction: column;
   }
 }
@@ -760,6 +768,7 @@ nav {
     .footer-column-one,
     .footer-column-two,
     .eventspage-container img {
+        width: 100%;
         display: none;
     }
 
@@ -796,6 +805,7 @@ nav {
     .header-cta,
     .cta-feature,
     .topnav,
+    .topnav-explore,
     .getinvolved-container img {
         display: none;
     }
@@ -849,8 +859,13 @@ nav {
 }
 .getinvolved-header-text {
     padding: 20px;
-
-}}
+}
+.explore-header-text h1{
+    left: 10%;
+    white-space: nowrap;
+    font-size: 70px;
+}
+}
 
 @media (max-width: 600px) {
 
@@ -895,7 +910,8 @@ nav {
     .event-list {
         right: -5%;
     }
-    .header-container-exhibitions h1{
+    .header-container-exhibitions h1,
+    .explore-header-text h1{
         font-size: 55px;
         bottom: 9%;
     }
@@ -904,5 +920,8 @@ nav {
 @media (max-width: 500px) {
     .header-container-exhibitions h1{
         bottom: -9%;
+    }
+    .explore-header-text h1{
+        font-size: 38px;
     }
 }

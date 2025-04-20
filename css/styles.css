@@ -27,8 +27,9 @@ h2 {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    padding: 15px;
 }
 
 .header-cta {
@@ -68,7 +69,7 @@ header {
     position: sticky;
     padding: 30px;
     margin: 0;
-    width:fit-content;
+    width: fit-content;
 }
 
 /* Navigation Styles */
@@ -78,16 +79,18 @@ nav {
     color: #000000;
     text-decoration: #E31E9E;
     display: none;
+    position: absolute;
+    top: 27px;
   }
   
   nav ul {
     display: inline-block;
-    text-align : right;
+    text-align : center;
   }
   
   nav li {
-      display: inline-block;
-          padding: 20px;
+      display: inline;
+        padding: 11px;
     }
   
     nav a {
@@ -110,7 +113,10 @@ nav {
     
     #hamburger-menu:checked ~ nav {
         display: block;
-        white-space: nowrap;
+    }
+
+    .current {
+        color: #E31E9E;
     }
 
 /* Footer Styles */
@@ -754,6 +760,7 @@ nav {
 nav {
     display: block;
     position: static;
+    font-size: 23px;
   }
 
   header label {
@@ -930,7 +937,7 @@ nav {
 
     .header-container-exhibitions h1,
     .explore-header-text h1{
-        font-size: 55px;
+        font-size: 48px;
         bottom: 9%;
     }
 }

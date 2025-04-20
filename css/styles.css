@@ -306,6 +306,7 @@ nav {
 /* Get Involved Page */
 
 .getinvolved-header img {
+    width: 50%;
     padding: 0px;
 }
 
@@ -316,15 +317,11 @@ nav {
 }
 
 .getinvolved-header-text {
-    padding: 61px;
+    padding: 30px;
 }
 
 .topnav a {
-    float: left;
     color: #000000;
-    text-align: center;
-    padding: 5px 40px;
-    margin: 20px;
     text-decoration: none;
 }
 
@@ -343,9 +340,7 @@ nav {
     border: 3px solid #FF6608;
 }
 
-.support-box img,
-.volunteer-box img,
-.internship-box img{
+.getinvolved-container img {
     width: 35%;
     height: auto;
 }
@@ -385,6 +380,7 @@ nav {
 }
 
 .visitus-header img {
+    width: 50%;
     padding: 0px;
 }
 
@@ -574,6 +570,7 @@ nav {
 .explore-container img,
 .explore-container-middle img,
 .explore-container-last img {
+    width: 50%;
     height: auto;
     padding: 18px;
 }
@@ -896,7 +893,8 @@ nav {
     }
 
     .header-container-exhibitions h1,
-    .explore-header-text h1{
+    .explore-header-text h1,
+    .visitus-header h1{
         font-size: 48px;
         bottom: 9%;
     }

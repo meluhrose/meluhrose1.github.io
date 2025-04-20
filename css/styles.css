@@ -683,7 +683,7 @@ nav {
     }
 
      .explore-header-text {
-        left: 34%;
+        left: 16%;
   }
 }
 
@@ -695,27 +695,11 @@ nav {
     .explore-header-text h1 {
         font-size: 5rem;
 }
-    }
-    
-@media (min-width: 1081px) {
-
-    header {
-        justify-content: baseline;
-      }
-
-nav {
-    display: block;
-    position: static;
-  }
-
-  header label {
-    display: none;
-  }
-
-  nav li {
-    display: inline-block;
-  }
+    .explore-header-text {
+        left: 31%;
 }
+
+    }
 
 @media (max-width: 1289px) {
 
@@ -753,6 +737,32 @@ nav {
 .visitus-container-3 {
     flex-direction: column;
   }
+
+  .explore-header-text {
+    left: 23%;
+    white-space: nowrap;
+}
+
+}
+
+@media (min-width: 1081px) {
+
+    header {
+        justify-content: baseline;
+      }
+
+nav {
+    display: block;
+    position: static;
+  }
+
+  header label {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
 }
 
 @media (max-width: 980px) {
@@ -763,7 +773,7 @@ nav {
 
     .header-text h1 {
         font-size: 35px;
-  }
+    }
 
     .footer-column-one,
     .footer-column-two,
@@ -797,7 +807,10 @@ nav {
 
     .visitus-container-1{
         flex-direction: column;
-}
+    }
+    .explore-header-text {
+        left: 9%;
+    }
 }
 
 @media (max-width: 801px) {
@@ -910,6 +923,11 @@ nav {
     .event-list {
         right: -5%;
     }
+
+    .explore-header-text {
+        left: 11%;
+     }
+
     .header-container-exhibitions h1,
     .explore-header-text h1{
         font-size: 55px;

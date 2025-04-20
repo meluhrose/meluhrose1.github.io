@@ -54,17 +54,17 @@ img {
     transition: background-color 0.3s ease;
 }
 
-.cta-cyan { border-color: #2DE1EC; }
-.cta-cyan:hover { background-color: #2DE1EC; }
+.cta-cyan {border-color: #2DE1EC;}
+.cta-cyan:hover {background-color: #2DE1EC;}
 
-.cta-pink { border-color: #E31E9E; }
-.cta-pink:hover { background-color: #E31E9E; }
+.cta-pink {border-color: #E31E9E;}
+.cta-pink:hover {background-color: #E31E9E;}
 
-.cta-green { border-color: #08FF14; }
-.cta-green:hover { background-color: #08FF14; }
+.cta-green {border-color: #08FF14;}
+.cta-green:hover {background-color: #08FF14;}
 
 .cta-orange {border-color: #FF6608;}
-.cta-orange:hover { background-color: #FF6608; }
+.cta-orange:hover {background-color: #FF6608;}
 
 .flex-row {
     display: flex;

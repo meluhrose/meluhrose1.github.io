@@ -215,12 +215,10 @@ nav {
     opacity: 0.82;
 }
 
-
 .featured-event:hover img {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
-
 
 .feature-date {
     position: absolute;
@@ -462,7 +460,7 @@ nav {
 
 .exhibition-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(415px, 1fr));
     gap: 171px;
     width: 95%;
     margin: 1px auto;
@@ -798,7 +796,7 @@ nav {
   .exhibition-container {
         width: 50%;
         gap: 20px;
-        margin: 0px;
+        margin: -20px;
     }
 }
 

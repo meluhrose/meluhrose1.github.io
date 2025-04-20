@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-    font-size: 9rem;
+    font-size: 7rem;
+    white-space: nowrap;
     text-shadow:
     -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -182,7 +183,7 @@ nav {
 
 .header-text {
     position: absolute;
-    bottom: 2%;
+    bottom: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FF6608;

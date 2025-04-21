@@ -1,0 +1,131 @@
+.header-container {
+    position: relative;
+}
+
+.header-container img,
+.explore-header-container img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF6608;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.main-title {
+    color: #000000;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.featured-event {
+    position: relative;
+    left: 12%;
+}
+
+.featured-event img {
+    width: 45%;
+    height: auto;
+    padding: 11px;
+    opacity: 0.82;
+}
+
+.featured-event:hover img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.feature-date {
+    position: absolute;
+    top: 38px; 
+    left: 48px;
+    background-color: #08FF14;
+    padding: 15px 15px;
+    font-weight: bold;
+}
+
+.feature-text {
+    position: absolute;
+    top: 53%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.feature-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 0 4px 10px #08FF14;
+}
+
+.cta-feature {
+    position: absolute;
+    top: 63%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.event-container {
+    justify-content: space-between;
+    margin: 50px;
+    width: 82%;
+}
+
+.event-list {
+    position: relative;
+    right: 14%;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 500px;
+    padding: 3px;
+    margin: 10px;
+    border: 3px solid;
+}
+
+.event-orange { border-color: #FF6608; }
+.event-pink { border-color: #E31E9E; }
+.event-cyan { border-color: #2DE1EC; }
+.event-lightblue { border-color: #94FACE; }
+.event-blue { border-color: #289CB9; }
+.event-green { border-color: #08FF14; }
+
+.date-event {
+    padding: 15px 15px;
+    margin: 8px;
+    font-weight: bold;
+    width: 10%;
+    background-color: inherit;
+}
+
+.date-orange { background-color: #FF6608; }
+.date-pink { background-color: #E31E9E; }
+.date-cyan { background-color: #2DE1EC; }
+.date-lightblue { background-color: #94FACE; }
+.date-blue { background-color: #289CB9; }
+.date-green { background-color: #08FF14; }
+
+.event-time {
+    font-weight: bold;
+    line-height: 10px;
+}

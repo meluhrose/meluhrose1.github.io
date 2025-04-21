@@ -1,0 +1,60 @@
+.getinvolved-header img {
+    width: 50%;
+    padding: 0px;
+}
+
+.getinvolved-header {
+    background-color: #289CB9;
+    color: #000000;
+    width: 100%;
+}
+
+.getinvolved-header-text {
+    padding: 30px;
+}
+
+.topnav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.getinvolved-container {
+    background-image: url('../assets/container-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 25px;
+    height: auto;
+    display: flex;
+} 
+
+.support-box,
+.support-box img {
+    border: 3px solid #FF6608;
+}
+
+.getinvolved-container img {
+    width: 35%;
+    height: auto;
+}
+
+
+.volunteer-box,
+.volunteer-box img {
+    border: 3px solid #08FF14;
+}
+
+.internship-box,
+.internship-box img {
+    border: 3px solid #2DE1EC;
+}
+
+.box-content {
+    width: 40%;
+    height: 500px;
+    padding: 48px;
+}
+
+.volunteer-box {
+    align-items: center;
+}

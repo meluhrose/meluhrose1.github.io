@@ -1,0 +1,61 @@
+.visitus-header {
+    background-color: #E31E9E;
+    color: #000000;
+    justify-content: space-between;
+    width: 100%;
+}
+.visitus-header h1 {
+    position: relative;
+    left: 7%;
+}
+
+.visitus-header img {
+    width: 50%;
+    padding: 0px;
+}
+
+.visitus-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.visitus-container-1 {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.visitus-info {
+    color: #47413E;
+    font-weight: bold;
+}
+
+.bg-pink {
+    background-color: rgba(227, 30, 158, 0.3);
+    border-radius: 7px;
+    padding: 6px;
+    margin: 2px;
+}
+
+.bg-color {
+    padding: 6px;
+    margin: 2px;
+}
+
+.visitus-container-2, .accessibility-box, .food-drink-box, .shop-box {
+    background-image: url('../assets/container-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #E31E9E;
+    padding: 16px;
+    margin: 25px;
+    height: auto;
+}
+
+.visitus-container-3 {
+    justify-content: space-evenly;
+    align-items: center;
+}

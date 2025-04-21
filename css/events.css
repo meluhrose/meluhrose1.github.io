@@ -1,0 +1,42 @@
+.header-events {
+    position: relative;
+}
+
+.header-events img {
+    height: auto;
+}
+
+.header-events h1 {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E31E9E;
+    text-align: center;
+}
+
+.eventspage-container {
+    gap: 80px;
+    width: 95%;
+    margin: 1px auto;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+}
+
+.eventspage-container img {
+    padding: 90px;
+    width: fit-content;
+}
+
+.event-text {
+    padding: 25px 100px;
+}
+
+.event-date-time {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.event-1 { background-color: #2DE1EC;}
+.event-2 {background-color: #08FF14;}
+.event-3 {background-color: #FF6608;}

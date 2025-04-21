@@ -461,9 +461,9 @@ nav {
 
 .exhibition-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(415px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 171px;
-    width: 95%;
+    width: 85%;
     margin: 1px auto;
     padding: 25px;
 }

@@ -143,7 +143,6 @@ i {
 
 .footer-column {
     background-color: #000000;
-    color: #fff;
     justify-content: space-evenly;
     padding: 9px;
 }
@@ -160,8 +159,22 @@ i {
 }
 
 .footer-column-three {
-    text-align: left;
     color: #FF6608;
+}
+.footer-column-three i {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-column-three i:hover {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-column-three a {
+    text-decoration: none;
 }
 
 .footer-title {

@@ -465,7 +465,7 @@ nav {
     gap: 171px;
     width: 95%;
     margin: 1px auto;
-    padding: 30px;
+    padding: 25px;
 }
 
 .exhibition-container img {
@@ -802,7 +802,7 @@ nav {
   .exhibition-container {
         width: 50%;
         gap: 20px;
-        margin: -20px;
+        margin: -15px;
     }
 }
 

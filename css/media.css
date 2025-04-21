@@ -31,14 +31,6 @@
         left: 22%;
     }
 
-    .visitus-header img {
-        display: none;
-    }
-
-    .getinvolved-header img {
-        display: none;
-      }
-
     .explore-container img,
     .explore-container-middle img, .explore-container-last img {
         display: none;
@@ -106,27 +98,27 @@
 }
 
 @media (min-width: 1081px) {
-
+    
     header {
         justify-content: baseline;
-      }
+    }
 
-nav {
-    display: block;
-    position: static;
-    font-size: 23px;
-  }
+    nav {
+        display: block;
+        position: static;
+        font-size: 23px;
+    }
 
-  header label {
-    display: none;
-  }
+    header label {
+        display: none;
+    }
 
-  nav li {
-    display: inline-block;
-  }
+    nav li {
+        display: inline-block;
+    }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 940px) {
 
     body {
         font-size: 15px;
@@ -170,6 +162,10 @@ nav {
     }
     .explore-header-text {
         left: 9%;
+    }
+    .getinvolved-header img,
+    .visitus-header img{
+        display: none;
     }
 }
 
@@ -294,7 +290,8 @@ nav {
 
     .header-container-exhibitions h1,
     .explore-header-text h1,
-    .visitus-header h1{
+    .visitus-header h1,
+    .getinvolved-header h1{
         font-size: 48px;
         bottom: 9%;
     }

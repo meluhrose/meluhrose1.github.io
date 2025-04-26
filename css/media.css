@@ -167,6 +167,10 @@
     .visitus-header img{
         display: none;
     }
+    .visitus-container-1 {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 801px) {

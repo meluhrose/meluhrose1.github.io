@@ -24,14 +24,6 @@ h2 {
 
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-}
-
 img {
     width: 100%;
 }
@@ -85,54 +77,67 @@ img {
   }
 
 /* Header Styles & Navigation Styles */
-.logo {
-    position: sticky;
-    padding: 30px;
-    margin: 0;
-    width: fit-content;
-}
-
 nav { 
     margin: 40px;
-    font-family: "Lexend", sans-serif;
-    color: #000000;
-    text-decoration: #E31E9E;
-    display: none;
-    position: absolute;
-    top: 27px;
-  }
-  
-nav ul {
-    display: inline-block;
-    text-align : center;
-  }
-  
-nav li {
-    display: inline;
-    padding: 11px;
-    }
-  
-nav a {
-    color: #000000;
-    text-decoration: none;
-    }
-  
+    font-family: "Lexend", sans-serif;}
+
 nav a:hover {
     color: #E31E9E;
     }
-  
-i {
-    padding: 10px;
-    margin: 5px;
+
+li {padding-left: 30px;}
+li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        transition: 0.10s ease-in-out;
+        position: relative;
+     }
+
+.nav-bar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        position: relative;
+        background-color: #F4F1F1;
+        padding: 20px 30px;
     }
-    
-    #hamburger-menu {
+
+.menu {display: flex;}
+
+li a::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: #F4F1F1;
+        transition: 0.10s ease-in-out;
+        content: "";
+    }
+
+li a:hover:after {width: 50%;}
+
+.open-menu, 
+.close-menu {
+        position: absolute;
+        color: #000000;
+        cursor: pointer;
+        font-size: 1.5rem;
         display: none;
     }
-    
-    #hamburger-menu:checked ~ nav {
-        display: block;
+
+    .open-menu {
+        top: 42%;
+        left: 89%;
+        transform: translateY(-50%);
     }
+    .close-menu {
+        top: 20px;
+        right: 20px;
+    }
+    #check {display: none;}
 
     .current {
         color: #E31E9E;

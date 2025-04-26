@@ -97,25 +97,25 @@
 }
 }
 
-@media (min-width: 1081px) {
+@media (max-width: 1081px) {
     
-    header {
-        justify-content: baseline;
+    .menu {
+        flex-direction: column;
+        justify-content: left;
+        width: 43%;
+        height: 65%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #F4F1F1;
+        transition: all 0.1s ease-in-out;
     }
-
-    nav {
-        display: block;
-        position: static;
-        font-size: 23px;
-    }
-
-    header label {
-        display: none;
-    }
-
-    nav li {
-        display: inline-block;
-    }
+    
+    .menu li {margin-top: 25px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
 }
 
 @media (max-width: 940px) {

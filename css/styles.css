@@ -78,7 +78,7 @@ img {
 
 /* Header Styles & Navigation Styles */
 nav { 
-    margin: 40px;
+    margin: 4px;
     font-family: "Lexend", sans-serif;}
 
 nav a:hover {
@@ -96,7 +96,7 @@ li a {
 
 .nav-bar {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         list-style: none;
         position: relative;

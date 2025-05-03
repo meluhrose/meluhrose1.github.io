@@ -1,0 +1,31 @@
+.aboutus-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 34px;
+    margin: 13px;
+}
+
+.aboutus-container img {
+    width: 80%;
+    padding: 18px;
+}
+
+.aboutus-text {
+    border: 3px solid #FF6608;
+    padding: 20px;
+    width: 75%;
+    height: auto;
+
+}
+
+.text-introduction {
+    font-size: 2rem;
+    line-height: 52px;
+    margin-bottom: 1.5em;
+}
+
+.aboutus-cta {
+        position: relative;
+        top: 183px;
+      }

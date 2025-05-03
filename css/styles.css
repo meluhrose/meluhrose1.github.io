@@ -166,15 +166,19 @@ li a:hover:after {width: 50%;}
     color: #FF6608;
 }
 .footer-column-three i {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+
 }
 
 .footer-column-three i:hover {
     background-color: #fff;
     border-radius: 50%;
     color: #000000;
-    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .footer-column-three a {
@@ -184,4 +188,8 @@ li a:hover:after {width: 50%;}
 .footer-title {
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.link {
+    text-decoration: none;
 }

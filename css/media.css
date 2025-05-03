@@ -128,10 +128,16 @@
         font-size: 35px;
     }
 
-    .footer-column-one,
-    .footer-column-two,
     .eventspage-container img {
         display: none;
+    }
+
+    .footer-column,
+    .footer-column-one,
+    .footer-column-two {
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
     }
 
     .featured-event {

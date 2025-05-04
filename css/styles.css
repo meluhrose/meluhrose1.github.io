@@ -179,7 +179,7 @@ li a:hover:after {width: 50%;}
     background-color: #fff;
     border-radius: 50%;
     color: #000000;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.4s ease;
 }
 
 .footer-column-three a {
@@ -190,7 +190,19 @@ li a:hover:after {width: 50%;}
     font-weight: bold;
     font-size: 1.5rem;
 }
-
-.link {
-    text-decoration: none;
-}
+  
+.footer-column-two a:visited {
+    color: #2DE1EC;
+  }
+  
+.footer-column-two.link a:hover {
+    color: #2DE1EC;
+  }
+  
+  .footer-column-two a:active {
+    color: #2DE1EC;
+  }
+  
+  .footer-column-twoa:link, .footer-column-two a:visited {
+    text-decoration: underline;
+  }

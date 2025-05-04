@@ -1,6 +1,7 @@
 @media (max-width: 1936px) {
     
-    .header-text h1 {
+    .header-text h1,
+    .getinvolved-header-text h1{
         font-size: 6rem;
         white-space: nowrap;
     }

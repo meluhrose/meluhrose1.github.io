@@ -1,0 +1,12 @@
+:root {
+    --pink-color: #E31E9E;
+    --orange-color: #FF6608;
+    --cyan-color: #2DE1EC;
+    --green-color: #08FF14;
+    --teal-color: #289CB9;
+    --softblue-color: #94FACE;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --border-radius: 5px;
+    --spacing: 1rem;
+}

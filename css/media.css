@@ -9,11 +9,11 @@
         flex-direction: column;
         margin: 47px;
         width: 65%;
-        }
+    }
 
     .featured-event {
         left: 50%;
-        }
+    }
         
     .event-list {
         right: -23%
@@ -39,6 +39,10 @@
      .explore-header-text {
         left: 16%;
   }
+
+  .aboutus-container img {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1892px) {
@@ -52,7 +56,10 @@
     .explore-header-text {
         left: 31%;
 }
-    }
+    .aboutus-container img{
+        display: none;
+}
+}
 
 @media (max-width: 1289px) {
 
@@ -68,7 +75,8 @@
     bottom: 35%;
 }
 
-.header-cta {
+.header-cta,
+.aboutus-cta {
     font-size: 15px;
     white-space: nowrap;
 }
@@ -94,7 +102,7 @@
   .explore-header-text {
     left: 23%;
     white-space: nowrap;
-}
+    }
 }
 
 @media (max-width: 1081px) {
@@ -199,7 +207,8 @@
     .featured-event {
         left: 26%;
     }
-    .feature-text {
+    .feature-text,
+    .aboutus-container h1 {
         white-space: nowrap;
     }
     .event-list {
@@ -209,6 +218,11 @@
   .exhibition-container {
         gap: 20px;
         margin: -15px;
+    }
+
+    .aboutus-container h1 {
+        font-size: 5rem;
+
     }
 }
 
@@ -265,7 +279,7 @@
 
     .feature-date,
     .cta-feature,
-    .header-cta-exhibitions {
+    .header-cta-exhibitions{
         display: none;
     }
 
@@ -309,13 +323,19 @@
     .explore-text {
         width: 87%;
     }
+
+    .text-introduction {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
 }
 
 @media (max-width: 500px) {
     .header-container-exhibitions h1{
         bottom: -9%;
     }
-    .explore-header-text h1{
+    .explore-header-text h1,
+    .aboutus-container h1{
         font-size: 38px;
     }
 }

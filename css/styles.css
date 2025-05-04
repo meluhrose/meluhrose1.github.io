@@ -128,16 +128,16 @@ li a:hover:after {width: 50%;}
         display: none;
     }
 
-    .open-menu {
+.open-menu {
         top: 42%;
         left: 89%;
         transform: translateY(-50%);
     }
-    .close-menu {
+.close-menu {
         top: 20px;
         right: 20px;
     }
-    #check {display: none;}
+#check {display: none;}
 
     .current {
         color: #E31E9E;

@@ -2,17 +2,23 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 34px;
     margin: 13px;
 }
 
 .aboutus-container img {
     width: 80%;
-    padding: 18px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgb(192, 84, 74);
+}
+
+.aboutus-container img :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .aboutus-text {
-    border: 3px solid #FF6608;
     padding: 20px;
     width: 75%;
     height: auto;
@@ -24,8 +30,3 @@
     line-height: 52px;
     margin-bottom: 1.5em;
 }
-
-.aboutus-cta {
-        position: relative;
-        top: 183px;
-      }

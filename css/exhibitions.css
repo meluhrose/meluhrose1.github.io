@@ -2,10 +2,6 @@
     position: relative;
 }
 
-.header-container-exhibitions img {
-    height: auto;
-}
-
 .header-container-exhibitions h1 {
     position: absolute;
     bottom: 22%;

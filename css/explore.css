@@ -55,6 +55,9 @@
 .explore-container-last {background-color: #94FACE;}
 
 .explore-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
     width: 55%;
 }

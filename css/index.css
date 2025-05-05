@@ -83,12 +83,17 @@
 }
 
 .event-container {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin: 50px;
     width: 95%;
 }
 
 .event-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     right: 14%;
 }
@@ -104,7 +109,6 @@
 }
 
 .event-orange { border-color: #FF6608; }
-.event-pink { border-color: #E31E9E; }
 .event-cyan { border-color: #2DE1EC; }
 .event-lightblue { border-color: #94FACE; }
 .event-blue { border-color: #289CB9; }

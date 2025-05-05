@@ -105,14 +105,7 @@
     width: 500px;
     padding: 3px;
     margin: 10px;
-    border: 3px solid;
 }
-
-.event-orange { border-color: #FF6608; }
-.event-cyan { border-color: #2DE1EC; }
-.event-lightblue { border-color: #94FACE; }
-.event-blue { border-color: #289CB9; }
-.event-green { border-color: #08FF14; }
 
 .date-event {
     padding: 15px 15px;

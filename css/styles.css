@@ -131,10 +131,12 @@ li a:hover:after {width: 50%;}
         left: 89%;
         transform: translateY(-50%);
     }
+
 .close-menu {
         top: 20px;
         right: 20px;
     }
+
 #check {display: none;}
 
 .current {
@@ -173,7 +175,6 @@ li a:hover:after {width: 50%;}
     margin: 0;
     text-align: center;
     display: inline-block;
-
 }
 
 .footer-column-three i:hover {
@@ -200,10 +201,10 @@ li a:hover:after {width: 50%;}
     color: #2DE1EC;
   }
   
-  .footer-column-two a:active {
+.footer-column-two a:active {
     color: #2DE1EC;
   }
   
-  .footer-column-twoa:link, .footer-column-two a:visited {
+.footer-column-twoa:link, .footer-column-two a:visited {
     text-decoration: underline;
   }

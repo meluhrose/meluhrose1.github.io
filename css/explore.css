@@ -29,16 +29,19 @@
 }
 
 .explore-container img {
-    width: 30%;
-    height: auto;
-    padding: 18px;
+    width: 38%;
 }
 
 .explore-container-middle img,
 .explore-container-last img {
     width: 45%;
-    height: auto;
-    padding: 18px;
+}
+
+.explore-container img,
+.explore-container-middle img,
+.explore-container-last img {
+height: auto;
+padding: 18px;
 }
 
 .explore-container,
